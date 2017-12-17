@@ -20,7 +20,7 @@ public class SceneController {
     private ArrayList<ScreenCell> sceneCells =new ArrayList<ScreenCell>();
     private String check;
 
-//
+
     public SceneController(Pane root, int cellSize, int fieldSizeWide, int fieldSizeHeight, int timeIterMs) {
         this.root=root;
         this.CELL_SIZE=cellSize;
